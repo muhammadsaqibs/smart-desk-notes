@@ -18,7 +18,7 @@ function Home() {
       <ul>
         {folders.map((folder, index) => (
           <li key={index}>
-            <Link to={`/folder/${folder.toLowerCase()}`}>📁 {folder}</Link>
+            <Link to={`/folder/${folder.toLowerCase()}`} style={{ color: 'black', textDecoration: 'none' }}>📁 {folder}</Link>
           </li>
         ))}
       </ul>
