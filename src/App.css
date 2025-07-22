@@ -36,3 +36,84 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: #f8f9fa;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  transition: 0.3s ease;
+}
+body {
+  background-color: #f4f7fa;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  transition: 0.3s ease;
+}
+
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+body {
+  background-color: #121212;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
+}
+
+.btn-outline-light:hover,
+.btn-outline-primary:hover {
+  background-color: #ffffff22;
+  color: #fff;
+}
+/* Base styles */
+body {
+  background-color: #1e1e2f;
+  color: #eaeaea;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card styling */
+.smart-card {
+  background: #2a2a40;
+  color: #f1f1f1;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.smart-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.1);
+}
+
+.btn-custom {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #574b90;
+}
+
+.btn-outline-light:hover {
+  background-color: #f8f9fa10;
+}
+
