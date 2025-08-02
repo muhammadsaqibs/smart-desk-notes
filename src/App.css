@@ -116,4 +116,23 @@ body {
 .btn-outline-light:hover {
   background-color: #f8f9fa10;
 }
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+}
+
+.light-mode {
+  background-color: #f8f9fa;
+  color: black;
+  min-height: 100vh;
+}
+
 
