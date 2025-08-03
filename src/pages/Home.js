@@ -14,7 +14,7 @@ function Home({ darkMode }) {
     <div className="container my-5">
       {/* Heading */}
       <h2 className={`mb-4 text-center fw-bold ${darkMode ? 'text-light' : 'text-dark'}`}>
-        📚 SmartDesk Folders
+        📚 SmartDesk Folder
       </h2>
 
       <div className="row">
